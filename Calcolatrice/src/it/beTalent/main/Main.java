@@ -13,7 +13,8 @@ public class Main {
 		
 		int somma = calc.somma(a, b, c);
 		
-		System.out.println(somma);
+		System.out.println("La somma dei numeri inseriti è: " + somma);
+		
 
 	}
 
