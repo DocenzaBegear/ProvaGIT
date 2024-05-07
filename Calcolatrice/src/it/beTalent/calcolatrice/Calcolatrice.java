@@ -7,5 +7,22 @@ public class Calcolatrice {
 		risultato = primo+secondo+terzo;
 		return risultato;
 	}
-
+	
+	public int sottrazione(int primo, int secondo, int terzo) {
+		int risultato;
+		risultato = primo-secondo-terzo;
+		return risultato;
+	}
+	
+	public int moltiplicazione(int primo, int secondo, int terzo) {
+		int risultato;
+		risultato = primo*secondo*terzo;
+		return risultato;
+	}
+	
+	public int divisione(int primo, int secondo, int terzo) {
+		int risultato;
+		risultato = primo/secondo/terzo;
+		return risultato;
+	}
 }
